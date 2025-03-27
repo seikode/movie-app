@@ -28,6 +28,7 @@ function Home() {
               coverImg={movie.medium_cover_image}
               title={movie.title}
               genres={movie.genres}
+              url={movie.url}
             />
           ))}
         </div>
