@@ -19,9 +19,9 @@ function Home() {
   return (
     <div>
       {loading ? (
-        <h1>Loading...</h1>
+        <h1 className="text-2xl">Loading...</h1>
       ) : (
-        <div>
+        <div className="grid grid-cols-2">
           {movies.map((movie) => (
             <Movie
               key={movie.id}
